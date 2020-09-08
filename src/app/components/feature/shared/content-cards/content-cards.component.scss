@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+$fontRussoOne: 'Russo One', sans-serif;
+
+hr {
+    height: 5px;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+}
+
+h1 {
+    font-family: $fontRussoOne;
+    color:rgb(100, 100, 100);
+    font-size: 6rem; 
+    margin-bottom: 5rem;
+}
+
+.text {
+    text-align: left;
+    margin-top: 2rem;
+    color:rgb(100, 100, 100);
+}
+
+

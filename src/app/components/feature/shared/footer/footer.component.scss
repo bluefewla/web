@@ -1,0 +1,45 @@
+.footer-line{
+    //border: 1px solid rgba(255, 64, 64, 0.555);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.copyright-text {
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    background-color:  rgb(22, 22, 22);
+    color: white;
+    font-size: 1.3rem;
+    display: inline-block;
+    line-height: 3rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    border-radius: 100%;
+    border: 1px solid white;
+    transition: .2s;
+}
+
+.social-icons a.facebook:hover {
+    background-color: #0454ffb7
+}
+.social-icons a.instagram:hover {   
+    background-color: #ffb429bd
+}
+
+.social-icons a.email:hover {
+    background-color: #00ffeab6
+}
+
+.social-icons a.phone:hover {
+    background-color: #afff1bc7
+}

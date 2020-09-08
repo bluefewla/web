@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+$fontRussoOne: 'Russo One', sans-serif;
+
+h1{
+    font-family: $fontRussoOne;
+}
+
+.shadow{
+    background:rgb(255, 255, 255);
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 21px 2px rgba(145,145,145,1);
+    -moz-box-shadow: 1px 1px 21px 2px rgba(145,145,145,1);
+    box-shadow: 1px 1px 21px 2px rgba(145,145,145,1);
+}
+
+.parallax {
+    background-image: url('../../../../assets/office.jpg');
+    height: 371px; 
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10rem;
+}
+
+.info{
+    margin-top : -10rem;
+    width: 100%;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+
+.we {
+    font-size: 10rem;
+    color: rgb(211, 241, 241);
+    margin-top: -2rem;
+}
+
+.are {
+    font-size: 10rem;
+    color: rgb(211, 241, 241);
+    margin-top: -4rem;
+}
+
+.text{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+$fontRussoOne: 'Russo One', sans-serif;
+$fontTitillium: 'Titillium Web', sans-serif;
+
+
+.navbar-home {
+    background: rgba(248, 241, 241, 0);
+    width: 100%;
+    z-index: 3;
+    height: 2.5rem;
+    top: 0;
+    margin-top: -1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.navbar-home .col-1{
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+    font-family: $fontRussoOne;
+    text-decoration: none;
+    height: 3rem;
+    border-radius: 0rem;
+    transition: .2s;
+    margin-top: 6rem;
+    margin-right: 20px;
+}
+
+.navbar-home .col-1:hover{
+    color:black;
+}
+
+.logo{
+    text-align: center;
+    margin-top: -5rem;
+    height: 400px;
+    width: auto;
+}

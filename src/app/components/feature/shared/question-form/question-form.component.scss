@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+$fontRussoOne: 'Russo One', sans-serif;
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 5rem;
+    font-family: $fontRussoOne;
+}
+
+h6{
+    margin-top: 3rem;
+    text-align: left;
+    color: #ffffff;
+}
+
+input{
+    background: rgba(22, 22, 22, 0);
+    border-top: rgba(22, 22, 22, 0);
+    border-left: rgba(22, 22, 22, 0);
+    border-right: rgba(22, 22, 22, 0);
+    border-radius: 0.2rem;
+}
+
+textarea{
+    background: rgba(22, 22, 22, 0);
+    border-top: rgba(22, 22, 22, 0);
+    border-left: rgba(22, 22, 22, 0);
+    border-right: rgba(22, 22, 22, 0);
+    border-radius: 0.2rem;
+    height: 10rem;
+}
+
+.button-w{
+    background-color: rgba(172, 172, 172, 0.192);
+    color: white;
+    border-radius: 1rem;
+    width: 10rem;
+}
+
+.user-fields{
+    padding: 6rem;
+}
+

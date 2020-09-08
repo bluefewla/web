@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="row mt-3">
+        <div class="col ta-c">
+            <app-navbar></app-navbar>
+        </div>
+    </div>
+    <div class="row video">
+         <video [muted]="true" autoplay loop>
+             <source src="assets/file.mp4" type="video/webm">
+         </video> 
+    </div>
+      <div class="row">
+         <div class="col ta-c  mt-4 content-cards">
+             <app-content-cards></app-content-cards>
+         </div>
+     </div>
+     <div class="row ta-c mt-4">
+         <div class="col ta-c">
+             <app-info></app-info>
+             <h1 class="customers">Customers</h1>
+             <app-customers></app-customers>
+         </div>
+     </div>
+</div>
+<app-question-form></app-question-form>
+<app-footer></app-footer>
